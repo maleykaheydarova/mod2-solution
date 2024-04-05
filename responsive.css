@@ -1,0 +1,30 @@
+@media only screen and (max-width: 767px) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row .col-4{
+        width: 100% !important;
+        margin: 10px 20px !important;
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row .col-4:nth-child(1){
+        width: 46%;
+    }
+    .row .col-4:nth-child(2){
+        width: 48%;
+    }
+    .row .col-4:nth-child(3){
+        margin-top: 20px;
+        width: 100%;
+    }
+  }
+  
+
+  
